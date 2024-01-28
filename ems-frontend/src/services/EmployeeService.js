@@ -6,4 +6,3 @@ export const listEmployees=()=>{
   return axios.get(REST_API_BASE_URL);
 }
 
-console.log("Muthul")
