@@ -100,6 +100,10 @@ const EmployeeComponent = () => {
     }
   }
 
+  function back(){
+    navigator('/employees')
+  }
+
   return (
     <div className="container">
       <br /> <br />
@@ -146,7 +150,9 @@ const EmployeeComponent = () => {
 
               <button className="btn btn-success" onClick={saveOrUpdateEmployee}>Submit</button>
 
+
             </form>
+            <button className="btn btn-secondary mt-1" onClick={back}>Back</button>
           </div>
         </div>
       </div>
